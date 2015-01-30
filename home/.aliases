@@ -1,17 +1,25 @@
+#Bundler
+alias be="bundle exec"
+alias bun="bundle"
+
+#Git
+alias gcm="git commit -m"
+alias gp="git push"
+alias gst="git status"
+alias
+
+#Postgresql
+alias pgstart="postgres -D /usr/local/var/postgres"
+
+#Shortcuts
 alias ..="cd ../"
 alias ...="cd ../../"
 alias ....="cd ../../../"
 alias .....="cd ../../../../"
 alias ll="ls -lahG"
-alias gcm="git commit -m"
-alias gp="git push"
-alias gst="git status"
+
+#Vagrant
 alias vup="vagrant up"
 alias vdown="vagrant halt"
 alias vssh="vagrant ssh"
-alias be="bundle exec"
-alias buni="bundle install"
-alias pgstart="postgres -D /usr/local/var/postgres"
-alias aliasup="source ~/.aliases"
-alias alsee="cat ~/.aliases"
-alias aledit="subl ~/.aliases"
+
